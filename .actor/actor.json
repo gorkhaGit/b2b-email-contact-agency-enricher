@@ -1,7 +1,7 @@
 {
   "actorSpecification": 1,
   "name": "b2b-email-contact-agency-enricher",
-  "title": "B2B Website Email, Phone & Agency Lead Enricher (Bulk URLs + 6 Directories)",
+  "title": "B2B Website Email, Phone & Agency Contact Enricher",
   "description": "Bulk B2B website email extractor, phone number finder, and social contact enricher. Pass any list of company domains/URLs (from Google Maps, Clay, or CSV) OR pull verified agencies across Zapier, Make.com, Stripe, ClickUp, Supabase, and CNCF at 256 MB RAM.",
   "version": "0.1",
   "buildTag": "latest",

@@ -1,10 +1,10 @@
 {
-  "title": "B2B Website Email, Phone & Agency Lead Enricher (Bulk URLs + 6 Directories)",
+  "title": "B2B Website Email, Phone & Agency Contact Enricher",
   "type": "object",
   "schemaVersion": 1,
   "properties": {
     "websites": {
-      "title": "Bulk Websites / Domains to Enrich (Optional — Paste Any List of URLs or Domains)",
+      "title": "Bulk Websites / Domains to Enrich (Optional \u2014 Paste Any List of URLs or Domains)",
       "type": "array",
       "description": "Pass any list of company domains or URLs (from Google Maps, Clay, Apollo, n8n, or CSVs) to extract verified business emails, phone numbers, LinkedIn, X/Twitter, GitHub, and contact pages. Leave empty to auto-pull verified B2B agencies from the built-in partner directories below.",
       "editor": "stringList",
