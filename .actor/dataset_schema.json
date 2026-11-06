@@ -1,0 +1,51 @@
+{
+  "actorSpecification": 1,
+  "fields": {
+    "type": "object",
+    "properties": {
+      "companyName": { "type": "string", "title": "Company / Agency Name" },
+      "domain": { "type": "string", "title": "Domain" },
+      "website": { "type": "string", "title": "Clean Website URL" },
+      "sourceEcosystem": { "type": "string", "title": "Lead Source / Ecosystem" },
+      "partnerTier": { "type": "string", "title": "Partner Tier / Category" },
+      "primaryEmail": { "type": "string", "title": "Primary Verified Email" },
+      "emails": { "type": "array", "title": "All Verified Emails", "items": { "type": "string" } },
+      "phones": { "type": "array", "title": "Phone Numbers", "items": { "type": "string" } },
+      "linkedinUrl": { "type": "string", "title": "LinkedIn URL" },
+      "twitterUrl": { "type": "string", "title": "X / Twitter URL" },
+      "githubUrl": { "type": "string", "title": "GitHub URL" },
+      "youtubeUrl": { "type": "string", "title": "YouTube URL" },
+      "contactPageUrl": { "type": "string", "title": "Contact Page URL" },
+      "techAndServices": { "type": "array", "title": "Tech Stack & Services", "items": { "type": "string" } },
+      "headquarters": { "type": "string", "title": "Location / Region" },
+      "description": { "type": "string", "title": "Company Description" },
+      "pagesScanned": { "type": "integer", "title": "Pages Scanned" },
+      "scrapedAt": { "type": "string", "title": "Scraped At (UTC)" }
+    }
+  },
+  "views": {
+    "overview": {
+      "title": "Enriched B2B Company & Contact Leads",
+      "transformation": {
+        "fields": [
+          "companyName",
+          "domain",
+          "sourceEcosystem",
+          "partnerTier",
+          "primaryEmail",
+          "emails",
+          "phones",
+          "linkedinUrl",
+          "contactPageUrl",
+          "techAndServices",
+          "headquarters",
+          "website"
+        ]
+      },
+      "display": {
+        "component": "table",
+        "properties": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "name": "Bulk B2B Website Email & Agency Contact Enricher (Apify + Zero-Browser)",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "manual-trigger-1",
+      "name": "When clicking 'Test workflow'",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [240, 300]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.apify.com/v2/acts/gorkha-io~b2b-email-contact-agency-enricher/run-sync-get-dataset-items",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            {
+              "name": "token",
+              "value": "YOUR_APIFY_API_TOKEN"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "{\n  \"websites\": [\n    \"https://10clouds.com\",\n    \"https://isovalent.com\",\n    \"https://www.business-automated.com\",\n    \"https://www.l5.ai\"\n  ],\n  \"directorySource\": \"all_ecosystems\",\n  \"maxItems\": 25,\n  \"crawlContactPages\": true\n}",
+        "options": {}
+      },
+      "id": "apify-http-node-1",
+      "name": "Run B2B Email & Agency Enricher (Apify)",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [520, 300]
+    }
+  ],
+  "connections": {
+    "When clicking 'Test workflow'": {
+      "main": [
+        [
+          {
+            "node": "Run B2B Email & Agency Enricher (Apify)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,178 @@
+[
+  {
+    "companyName": "Automation Consulting Services",
+    "domain": "automationconsultingservices.com",
+    "website": "https://www.automationconsultingservices.com",
+    "sourceEcosystem": "Zapier Partner",
+    "partnerTier": "Platinum Solution Partner",
+    "primaryEmail": "",
+    "emails": [],
+    "phones": [],
+    "linkedinUrl": "",
+    "twitterUrl": "",
+    "githubUrl": "",
+    "youtubeUrl": "",
+    "contactPageUrl": "",
+    "techAndServices": [
+      "Airtable",
+      "ChatGPT",
+      "HubSpot",
+      "Zapier"
+    ],
+    "headquarters": "United States",
+    "description": "Enriched B2B profile for Automation Consulting Services (automationconsultingservices.com).",
+    "pagesScanned": 0,
+    "scrapedAt": "2026-11-06T05:36:13.887785+00:00"
+  },
+  {
+    "companyName": "Flow Digital",
+    "domain": "flow.digital",
+    "website": "https://flow.digital",
+    "sourceEcosystem": "Zapier Partner",
+    "partnerTier": "Platinum Solution Partner",
+    "primaryEmail": "hello@flow.digital",
+    "emails": [
+      "hello@flow.digital",
+      "experiences@scale.get"
+    ],
+    "phones": [],
+    "linkedinUrl": "https://www.linkedin.com/in/nweill/",
+    "twitterUrl": "https://x.com/NathanWeill",
+    "githubUrl": "",
+    "youtubeUrl": "",
+    "contactPageUrl": "https://flow.digital/about",
+    "techAndServices": [
+      "Google Tag Manager",
+      "HubSpot",
+      "Make",
+      "Salesforce",
+      "Zapier"
+    ],
+    "headquarters": "United States",
+    "description": "Looking to streamline your business? Flow Digital offers expert workflow automation consulting to boost efficiency. Optimize your process; book us now!",
+    "pagesScanned": 3,
+    "scrapedAt": "2026-11-06T05:36:10.987217+00:00"
+  },
+  {
+    "companyName": "Connex Digital",
+    "domain": "connex.digital",
+    "website": "https://connex.digital",
+    "sourceEcosystem": "Zapier Partner",
+    "partnerTier": "Platinum Solution Partner",
+    "primaryEmail": "contact@connex.digital",
+    "emails": [
+      "contact@connex.digital",
+      "paul@connex.digital"
+    ],
+    "phones": [
+      "+1-231-414-6009"
+    ],
+    "linkedinUrl": "https://www.linkedin.com/company/connexdigital",
+    "twitterUrl": "",
+    "githubUrl": "",
+    "youtubeUrl": "https://youtube.com/@connex-digital",
+    "contactPageUrl": "https://connex.digital/about-us/",
+    "techAndServices": [
+      "AI Automation",
+      "CRM",
+      "Google Tag Manager",
+      "Zapier"
+    ],
+    "headquarters": "Canada",
+    "description": "Deploy business process automation in weeks, not months. Custom AI and workflow automation solutions that help enterprise teams scale without hiring engineers.",
+    "pagesScanned": 3,
+    "scrapedAt": "2026-11-06T05:36:12.040068+00:00"
+  },
+  {
+    "companyName": "GetUWired",
+    "domain": "getuwired.com",
+    "website": "https://www.getuwired.com",
+    "sourceEcosystem": "Zapier Partner",
+    "partnerTier": "Platinum Solution Partner",
+    "primaryEmail": "consult@getuwired.com",
+    "emails": [
+      "consult@getuwired.com"
+    ],
+    "phones": [
+      "8772369094"
+    ],
+    "linkedinUrl": "",
+    "twitterUrl": "",
+    "githubUrl": "",
+    "youtubeUrl": "",
+    "contactPageUrl": "https://www.getuwired.com/contact",
+    "techAndServices": [
+      "ActiveCampaign",
+      "Keap",
+      "WordPress",
+      "Zapier"
+    ],
+    "headquarters": "United States",
+    "description": "GetUWired delivers digital marketing, CRM integration, marketing automation, and custom web development solutions to help businesses scale efficiently. Contact now!",
+    "pagesScanned": 2,
+    "scrapedAt": "2026-11-06T05:36:16.221985+00:00"
+  },
+  {
+    "companyName": "Sidekick Strategies",
+    "domain": "sidekickstrategies.com",
+    "website": "https://sidekickstrategies.com",
+    "sourceEcosystem": "Zapier Partner",
+    "partnerTier": "Gold Solution Partner",
+    "primaryEmail": "team@sidekick.they",
+    "emails": [
+      "team@sidekick.they"
+    ],
+    "phones": [],
+    "linkedinUrl": "https://www.linkedin.com/in/georgebthomas/",
+    "twitterUrl": "https://x.com/GeorgeBThomas",
+    "githubUrl": "",
+    "youtubeUrl": "https://www.youtube.com/@sidekickstrategies",
+    "contactPageUrl": "https://sidekickstrategies.com/about/testimonials",
+    "techAndServices": [
+      "Google Tag Manager",
+      "HubSpot",
+      "Next.js",
+      "RevOps",
+      "Zapier"
+    ],
+    "headquarters": "United States",
+    "description": "Sidekick Strategies is a HubSpot Platinum Partner agency. We build HubSpot and AI systems that work for your humans, not the other way around.",
+    "pagesScanned": 3,
+    "scrapedAt": "2026-11-06T05:36:13.433959+00:00"
+  },
+  {
+    "companyName": "Business Automated",
+    "domain": "business-automated.com",
+    "website": "https://www.business-automated.com",
+    "sourceEcosystem": "Make.com Partner",
+    "partnerTier": "Gold Partner",
+    "primaryEmail": "",
+    "emails": [],
+    "phones": [],
+    "linkedinUrl": "",
+    "twitterUrl": "https://twitter.com/BAutomated",
+    "githubUrl": "",
+    "youtubeUrl": "https://www.youtube.com/c/BusinessAutomatedTutorials",
+    "contactPageUrl": "https://www.business-automated.com/about",
+    "techAndServices": [
+      "AI Agents",
+      "Airtable",
+      "Make.com",
+      "Next.js",
+      "OpenAI",
+      "Stripe"
+    ],
+    "headquarters": "Finland",
+    "description": "Business Automated helps teams design and build Airtable automation solutions that seamlessly link to tools like Make, Zapier, Softr, and Stripe to streamline operations.",
+    "pagesScanned": 3,
+    "scrapedAt": "2026-11-06T05:36:11.755232+00:00"
+  },
+  {
+    "id": "8f0axoAFpC5J8Kdl7",
+    "name": null,
+    "accessed_at": "2026-11-06 05:36:16.362962+00:00",
+    "created_at": "2026-11-06 05:36:16.342642+00:00",
+    "modified_at": "2026-11-06 05:36:16.362962+00:00",
+    "item_count": 6
+  }
+]

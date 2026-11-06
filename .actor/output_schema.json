@@ -1,0 +1,14 @@
+{
+  "actorOutputSchemaVersion": 1,
+  "title": "Enriched B2B Website & Agency Contact Leads Output",
+  "description": "Verified business emails, phone numbers, social links, and B2B agency metadata stored in the default dataset.",
+  "type": "object",
+  "properties": {
+    "overview": {
+      "type": "string",
+      "title": "Enriched B2B Company & Contact Leads",
+      "description": "View all enriched domains and B2B partner agencies in a structured table.",
+      "template": "{{links.apiDefaultDatasetUrl}}/items?view=overview"
+    }
+  }
+}

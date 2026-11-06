@@ -1,0 +1,58 @@
+{
+  "title": "B2B Website Email, Phone & Agency Lead Enricher (Bulk URLs + 6 Directories)",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "websites": {
+      "title": "Bulk Websites / Domains to Enrich (Optional — Paste Any List of URLs or Domains)",
+      "type": "array",
+      "description": "Pass any list of company domains or URLs (from Google Maps, Clay, Apollo, n8n, or CSVs) to extract verified business emails, phone numbers, LinkedIn, X/Twitter, GitHub, and contact pages. Leave empty to auto-pull verified B2B agencies from the built-in partner directories below.",
+      "editor": "stringList",
+      "default": []
+    },
+    "directorySource": {
+      "title": "Built-In B2B Partner Directory Source",
+      "type": "string",
+      "description": "Select which B2B Partner Ecosystem to pull and enrich leads from (or choose 'custom_urls_only' if you only want to enrich your own 'websites' list above).",
+      "enum": [
+        "all_ecosystems",
+        "custom_urls_only",
+        "zapier_partners",
+        "make_partners",
+        "stripe_partners",
+        "clickup_partners",
+        "supabase_partners",
+        "cncf_cloud_native"
+      ],
+      "default": "all_ecosystems"
+    },
+    "searchQuery": {
+      "title": "Keyword / Tech Stack / Location Filter",
+      "type": "string",
+      "description": "Optional keyword to filter leads by company name, tech stack (e.g., OpenAI, HubSpot, Airtable, Stripe, Kubernetes), service, or country.",
+      "editor": "textfield",
+      "default": ""
+    },
+    "maxItems": {
+      "title": "Max B2B Leads to Enrich",
+      "type": "integer",
+      "description": "Maximum number of enriched B2B company records to output.",
+      "default": 25,
+      "minimum": 1,
+      "maximum": 10000
+    },
+    "crawlContactPages": {
+      "title": "Deep Crawl Internal /contact, /about & /impressum Pages",
+      "type": "boolean",
+      "description": "Automatically discovers and crawls internal contact, about, and legal pages plus JSON-LD schemas to maximize verified email and phone hit rates.",
+      "default": true
+    },
+    "onlyWithEmails": {
+      "title": "Only Output Leads with Verified Emails",
+      "type": "boolean",
+      "description": "If enabled, skips any domain where no verified business email address was found.",
+      "default": false
+    }
+  },
+  "required": []
+}
